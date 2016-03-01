@@ -1,0 +1,31 @@
+{
+  "name": "mongo-mask",
+  "version": "0.0.0",
+  "description": "Replaces data with masked values in mongo queries",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "nofat build",
+    "test": "nofat build && nofat test && nofat lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadirahq/mongo-mask.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Kadira Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadirahq/mongo-mask/issues"
+  },
+  "homepage": "https://github.com/kadirahq/mongo-mask#readme",
+  "devDependencies": {
+    "nofat": "0.7.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.6.1",
+    "mongo-parse": "1.0.5",
+    "source-map-support": "0.4.0"
+  }
+}
